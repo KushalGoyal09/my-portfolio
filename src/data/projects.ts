@@ -9,51 +9,55 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "CloudSync",
+    title: "Reacter",
     description:
-      "A real-time collaborative document editor with conflict resolution, live cursors, and version history. Built for teams that move fast.",
-    tech: ["Next.js", "TypeScript", "WebSocket", "PostgreSQL", "Redis"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "AI-powered platform that generates complete React applications from user prompts. Includes live preview, terminal access, and file system for interactive development with real-time refinement.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Monaco Editor",
+      "WebContainers",
+      "xterm.js",
+      "Redis",
+      "Upstash",
+      "Gemini API",
+    ],
+    github: "https://github.com/KushalGoyal09/Reacter",
+    live: "https://www.reacter.codes/",
     featured: true,
   },
   {
-    title: "DevMetrics",
+    title: "HealthHub",
     description:
-      "Analytics dashboard for developer productivity. Tracks commits, PRs, code reviews, and deployment frequency across teams.",
-    tech: ["React", "D3.js", "Node.js", "GraphQL", "MongoDB"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "Full-stack doctor-patient appointment platform with secure video consultations and online payments. Streamlines booking, communication, and healthcare access.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Razorpay",
+      "WebRTC",
+    ],
+    github: "https://github.com/KushalGoyal09/HealthHub",
+    live: "", // add if deployed
     featured: true,
   },
   {
-    title: "Taskflow CLI",
+    title: "Short.ly",
     description:
-      "A blazing-fast command-line task manager with git-like workflows. Supports branching, merging tasks, and team sync.",
-    tech: ["Go", "SQLite", "Cobra", "Bubble Tea"],
-    github: "https://github.com",
+      "URL shortening service with custom and auto-generated links using Base62 encoding and Snowflake IDs. Includes detailed analytics for tracking usage.",
+    tech: [
+      "TypeScript",
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/KushalGoyal09/Shortly",
+    live: "https://shortly.kushalgoyal.tech",
     featured: true,
-  },
-  {
-    title: "PixelForge",
-    description:
-      "AI-powered image optimization pipeline. Automatically compresses, resizes, and converts images for web delivery.",
-    tech: ["Python", "FastAPI", "Pillow", "AWS S3", "Docker"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "AuthGuard",
-    description:
-      "Drop-in authentication library with support for OAuth 2.0, MFA, and session management. Zero-config setup.",
-    tech: ["TypeScript", "JWT", "Redis", "Express"],
-    github: "https://github.com",
-  },
-  {
-    title: "NetWatch",
-    description:
-      "Network monitoring tool with real-time alerts, uptime tracking, and incident management for microservices.",
-    tech: ["Go", "Prometheus", "Grafana", "Docker", "gRPC"],
-    github: "https://github.com",
   },
 ];

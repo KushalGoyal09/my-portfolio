@@ -1,11 +1,10 @@
 export const heroData = {
   name: "Kushal",
   roles: [
-    "Full Stack Developer",
-    "UI/UX Enthusiast",
-    "Open Source Contributor",
-    "Problem Solver",
+    "Full Stack Builder",
+    "0 to 100 Engineer",
+    "Cloud & DevOps Engineer",
+    "Backend Systems Engineer",
   ],
-  tagline:
-    "I build modern, performant web applications with clean architecture and intuitive user experiences. Passionate about turning complex problems into simple, elegant solutions.",
+  tagline: "I Build Products, Not Just Code. From Zero to Production",
 };

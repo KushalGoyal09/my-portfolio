@@ -1,20 +1,24 @@
-export const email = "hello@example.com";
+export const email = "goyalkushal04@gmail.com";
 
 export const socials = [
-  { iconName: "Github" as const, href: "https://github.com", label: "GitHub" },
+  {
+    iconName: "Github" as const,
+    href: "https://github.com/KushalGoyal09",
+    label: "GitHub",
+  },
   {
     iconName: "Linkedin" as const,
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/kushal-goyal/",
     label: "LinkedIn",
   },
   {
     iconName: "Twitter" as const,
-    href: "https://twitter.com",
+    href: "https://x.com/Kushal__Goyal",
     label: "Twitter",
   },
   {
     iconName: "Mail" as const,
-    href: `mailto:hello@example.com`,
+    href: `mailto:goyalkushal04@gmail.com`,
     label: "Email",
   },
 ];

@@ -1,4 +1,4 @@
-import { Terminal, Code2, Layers } from "lucide-react";
+import { Terminal, Code2, Layers, Boxes } from "lucide-react";
 import { aboutParagraphs, infoCards } from "@/data/about";
 import { TiltCard } from "./tilt-card";
 import { Reveal } from "./reveal";
@@ -50,7 +50,7 @@ export function About() {
   );
 }
 
-const icons = { Terminal, Code2, Layers };
+const icons = { Terminal, Code2, Layers, Boxes };
 
 function IconMap({ name }: { name: keyof typeof icons }) {
   const Icon = icons[name];

@@ -1,26 +1,26 @@
 export const skillCategories = [
   {
     label: "languages",
-    skills: ["TypeScript", "JavaScript", "Python", "Go", "SQL", "HTML/CSS"],
+    skills: ["TypeScript", "JavaScript", "Java", "Python"],
   },
   {
     label: "frontend",
-    skills: ["React", "Next.js", "Tailwind CSS", "Redux", "Vue.js"],
+    skills: ["React", "Next.js", "Tailwind CSS"],
   },
   {
     label: "backend",
-    skills: ["Node.js", "Express", "FastAPI", "GraphQL", "REST APIs"],
+    skills: ["Node.js", "Express.js", "FastAPI", "System Design"],
   },
   {
     label: "databases",
-    skills: ["PostgreSQL", "MongoDB", "Redis", "Prisma", "Drizzle"],
+    skills: ["PostgreSQL", "MongoDB", "Redis"],
   },
   {
     label: "devops",
-    skills: ["Docker", "AWS", "CI/CD", "GitHub Actions", "Vercel"],
+    skills: ["Docker", "AWS (EC2, RDS, S3)", "CI/CD"],
   },
   {
     label: "tools",
-    skills: ["Git", "Linux", "Vim", "VS Code", "Figma"],
+    skills: ["Git", "Linux", "Redash", "PM2"],
   },
 ];
